@@ -1,0 +1,408 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: content-box; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main_all {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    left: 0px;
+    top: 0;
+}
+
+.side_bar {
+    width: 100%;
+    background-color: #fae4ca;
+    height: 100vh;
+    text-align: center;
+}
+
+.main_dashboard {
+    width: 80vw;
+    height: 100vh;
+    margin-left: 4em ;
+}
+
+
+.dashboard_first_section {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    height: 65vh;
+    grid-gap: 2em;
+}
+
+.first_half {
+    height: 60%;
+    width: 100%;
+}
+
+.second_half {
+    height: 100%;
+}
+
+.for_stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em;
+}
+
+.logo_text {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.profile_pic {
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.profile_img {
+    margin: 0.8em auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile_name {
+    font-size: 1.2em;
+    margin-bottom: 2px;
+}
+
+.profile_desc {
+    font-size: 0.8em;
+    margin: 2px;
+    color: gray;
+    font-family: 'Ubuntu';
+}
+
+.menu {
+    margin-top: 5em;
+}
+
+.menu_item{
+    margin: 2em;
+}
+
+.menu_main {
+    font-weight: 700;
+}
+
+.logout {
+    margin-top: 8em;
+}
+
+.logout_logo {
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+    border-radius: 50%;
+    font-size: 0.6em;
+}
+
+
+/* .half_divider {
+    width: 50%;
+} */
+
+.half_divider hr{
+    opacity: 0.5;
+}
+
+.half_divider p{
+    margin-bottom: 2px;
+    font-size: 0.8em;
+}
+
+/* .top_line_break {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.dividend {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.i_down {
+    margin-left: 8em;
+}
+
+.i_up {
+    margin-left: 9em;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.dashboard_main_text {
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.activity_image {
+    width: 500px;
+    height: 150px;
+}
+
+.Ads {
+    position: relative;
+    border-radius: 20px;
+    background-color: #fae4ca;
+    height: 35%;
+    margin-top: 2em;
+    margin-right: 4em;
+    box-shadow: 10px 2px 60px -36px rgba(131,126,126,0.75);
+    padding: 0.5em 2em 0.1em 2em;
+}
+
+.ad_main {
+    margin-bottom: 0.2em;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.upgrade {
+    color: #E85643;
+}
+
+.ad_text{
+    margin-top: 0;
+    font-size: 0.8em;
+    opacity: 0.5;
+}
+
+.ad_img {
+    margin-top: 1em;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ad_action {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    background-color: #E85643;
+    color: white;
+    padding: 1.3em 0.8em;
+    border-radius: 50%;
+    font-weight: 700;
+    box-shadow: 10px 10px 0px 5px rgba(245, 174, 20, 0.88);
+}
+
+table {
+    height: 40%;
+    font-size: 0.8em;
+}
+
+th, td {
+  text-align: left;
+  margin: 0.2em;
+  padding-right: 1em ;
+}
+
+.last_section {
+    border-radius: 20px;
+    background-color: #c7f1ea;
+    height: 30vh;
+    margin-top: 2em;
+    margin-right: 4em;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+.small_img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.table_data {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px; 
+}
+
+.split_dashboard {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard_right {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.performers {
+    margin: 0px;
+}
+
+.red_alert {
+    text-align: center;
+    margin-right: 10px; 
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+    /* width: 50px;
+    height: 20px; */
+    padding: 0.4em 0.7em 0.4em 0.7em;
+    border-radius: 100%;
+    background-color: red;
+    justify-content: space-around;
+}
+
+/* .small_img::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+
+.utility {
+    font-weight: 700;
+}
+
+.opaq {
+    opacity: 0.5;
+}
+
+.small_menu_item {
+    font-size: 0.8em;
+}
+
+.top_perf {
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.view_more {
+    margin-top: 0.3em;
+}
+
+.Act_text {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+/* .last_section_grid {
+    
+    
+} */
+
+.last_grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5em;
+    width: 100%;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.grid_box {
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    margin: 0.5em;
+    text-align: center;
+    box-shadow: 0px 11px 15px -7px rgb(68 65 65 / 20%), 0px 24px 38px 3px rgb(224 220 220 / 14%), 0px 9px 46px 8px rgb(167 159 159 / 12%);
+}
+
+.grid_box_last {
+    background: #6EBCB6;
+    box-shadow: 0px 11px 15px -7px rgb(68 65 65 / 20%), 0px 24px 38px 3px rgb(224 220 220 / 14%), 0px 9px 46px 8px rgb(167 159 159 / 12%);
+    border-radius: 20px;
+    margin: 0.5em;
+    color: #fff;
+    padding: 1em;
+    font-weight: 700;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.next {
+    color: #6EBCB6;
+    padding: 0.4em 0.6em;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.social_icon {
+    margin: -0.8em auto 0 auto;
+    color: white;
+    text-align: center;
+    /* background-color: rgb(106, 45, 150); */
+    padding: 0.4em;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.grid_box .head_text{
+    font-weight: 700;
+    margin: 0.5em 0 0.5em 0;
+    
+}
+
+.head_handle {
+    margin: 4px auto;
+    font-size: 0.8em;
+    opacity: 0.4;
+}
+
+.percent {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.channels {
+    padding: 1.5em ;
+}
+
+.channels_head {
+    margin-bottom: 0.7em;
+    font-size: 1.7em;
+    font-weight: 700;
+
+}
+
+.channels_text {
+    line-height: 1.2em;
+    opacity: 0.7;
+}
